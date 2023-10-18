@@ -53,3 +53,14 @@ body {
     background-color: #eee;
     color: #000;
 }
+/*Formulário*/
+
+.form{
+    position: relative;
+    left: 850px;
+    top: 20px;
+    width: 450px;
+    background-color: #000;
+    height: 430px;
+    border-radius: 10px;
+}
