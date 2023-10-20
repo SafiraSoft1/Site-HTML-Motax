@@ -59,8 +59,33 @@ body {
     position: relative;
     left: 850px;
     top: 20px;
-    width: 450px;
+    width: 430px;
     background-color: #000;
-    height: 430px;
+    height: 350px;
     border-radius: 10px;
+    
+}
+.titulo{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: 5px;
+    top: 20px;
+    }
+.form input {
+    height: 30px;
+    width: 330px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 20px
+    
+    }
+.botao{
+    background: yellow;
+    left: 970px;
+    top: -100px;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
 }
