@@ -21,6 +21,7 @@ body {
     padding: 15px 15px 15px 50px;
     color: #000000;
     z-index: 3;
+    position: absolute;
 }
 
 .menu {
