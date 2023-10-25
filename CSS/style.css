@@ -79,15 +79,3 @@ body {
     left: 140px;
     border-radius: 0px 90px 70px 0px;
 }
-
-.container1 {
-    display: flex;
-}
-
-.blocointro {
-    z-index: 4;
-}
-
-.blocoform {
-    z-index: 5;
-}
