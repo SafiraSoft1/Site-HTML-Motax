@@ -2,17 +2,14 @@
     font-family: ubuntu;
     
 }
+header{
 
-body {
-    margin: 0;
-    
 }
 
 .cabecalho {
     
-    border-bottom: solid 5px #fff;
-    height: 80px;
-    box-sizing: content-box;
+    
+ 
 }
 
 .logo {
@@ -60,7 +57,7 @@ body {
 }
 
 .efeito1 {
-    position: fixed;
+    position: absolute;
     background-color: rgb(240, 196, 64);
     height: 900px;
     width: 800px;
@@ -72,7 +69,7 @@ body {
 }
 
 .efeito2 {
-    position: fixed;
+    position: absolute;
     background-color: #f4f2f2;
     height: 850px;
     width: 300px;
@@ -84,5 +81,12 @@ body {
     
 }
 
-
+.sobre {
+    position: absolute;
+    margin-top: 90vh;
+    
+    border: solid 1px;
+    width: 99vw;
+    height: 99vh;
+}
 
