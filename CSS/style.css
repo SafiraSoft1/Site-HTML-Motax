@@ -5,11 +5,11 @@
 
 body {
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    
 }
 
 .cabecalho {
-    background-color: black;
+    
     border-bottom: solid 5px #fff;
     height: 80px;
     box-sizing: content-box;
@@ -30,6 +30,7 @@ body {
     height: 80px;
     padding: 25px;
     float: right;
+    color: #000;
 }
 
 .menu ul {
@@ -39,6 +40,7 @@ body {
 
 .menu li {
     display: inline-block;
+    
 }
 
 .cabecalho a {
@@ -58,25 +60,29 @@ body {
 }
 
 .efeito1 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(240, 196, 64);
-    height: 600px;
-    width: 600px;
+    height: 900px;
+    width: 800px;
     transform: rotate(20deg);  
-    top: -120px;  
-    left: -50px;
-    border-radius: 0px 50px 70px 0px;
+    top: -150px;  
+    left: -100px;
+    border-radius: 0px 120px 120px 0px;
     z-index: 2;
 }
 
 .efeito2 {
-    position: absolute;
+    position: fixed;
     background-color: #f4f2f2;
-    height: 505px;
-    width: 600px;
-    transform: rotate(50deg);
-    top: -50px;
-    left: 140px;
-    border-radius: 0px 90px 70px 0px;
+    height: 850px;
+    width: 300px;
+    transform: rotate(35deg);
+    top: 40px;
+    left: 500px;
+    border-radius: 0px 90px 180px 0px;
+    z-index: 1;
+    
 }
+
+
 
