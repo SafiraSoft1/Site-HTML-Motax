@@ -2,15 +2,7 @@
     font-family: ubuntu;
     
 }
-header{
 
-}
-
-.cabecalho {
-    
-    
- 
-}
 
 .logo {
     display: inline-block;
@@ -83,10 +75,33 @@ header{
 
 .sobre {
     position: absolute;
-    margin-top: 90vh;
+    margin-top: 70vh;
     
-    border: solid 1px;
+    background-color: rgba(243, 243, 243, 0.322);
     width: 99vw;
     height: 99vh;
 }
 
+
+/* page - 2 */
+
+.sobre{
+    padding: 200px;
+}
+ .bloco-sobre {
+    background-color: #242424;
+    width: 100%;
+    border-radius: 5px;
+} 
+#texto-sobre {
+    width: 40vw;
+}
+ #formato-espacado {
+    background-color: rgb(240, 196, 64);
+    width: 20px;
+    height: 20rem;
+    border-radius: 8px;
+    margin-top: 5%;
+    
+    
+} 
