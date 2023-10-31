@@ -75,7 +75,7 @@
 
 .sobre {
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 59vh;
     
     background-color: rgba(243, 243, 243, 0.322);
     width: 99vw;
@@ -86,22 +86,35 @@
 /* page - 2 */
 
 .sobre{
-    padding: 200px;
+    
+    padding-top: 8rem;
+
 }
  .bloco-sobre {
     background-color: #242424;
-    width: 100%;
+    width: 450px;
+    height: 500px;
     border-radius: 5px;
+    margin-right: 150px;
 } 
 #texto-sobre {
     width: 40vw;
+    padding-top: 3em;
 }
  #formato-espacado {
     background-color: rgb(240, 196, 64);
-    width: 20px;
+    width: 15px;
     height: 20rem;
     border-radius: 8px;
     margin-top: 5%;
     
     
 } 
+#page2-image {
+    left: 200px;
+    top: 40px;
+    width: 530px;
+    
+    position: relative;
+    rotate: 1deg
+}
