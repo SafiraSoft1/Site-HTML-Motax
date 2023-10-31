@@ -73,23 +73,20 @@
     
 }
 
+
+
+/* page - 2 */
+
 .sobre {
     position: absolute;
     margin-top: 59vh;
     
     background-color: rgba(243, 243, 243, 0.322);
-    width: 99vw;
+    width: 100%;
     height: 99vh;
-}
-
-
-/* page - 2 */
-
-.sobre{
-    
     padding-top: 8rem;
-
 }
+
  .bloco-sobre {
     background-color: #242424;
     width: 450px;
@@ -117,4 +114,13 @@
     
     position: relative;
     rotate: 1deg
+}
+
+
+
+
+.nossos-ServiçoTaxi{
+    width: 100%;
+    height: 200px;
+    background-color: #000;
 }
