@@ -1,60 +1,55 @@
 * {
     font-family: ubuntu;
-    
+
 }
 
 
-.logo {
-    display: inline-block;
-    font-size: 40px;
-    padding: 15px 15px 15px 50px;
-    color: #000000;
+.page-first {
+    height: 90vh;
+}
+
+.teste{
+    border: solid red 1.5;
+}
+
+
+
+
+
+
+#logo {
+
     z-index: 3;
-    position: absolute;
+    font-size: 2.7rem;
+    margin-left: 3rem;
+
 }
 
-.menu {
-    display: inline-block;
-    vertical-align: top;
-    height: 80px;
-    padding: 25px;
-    float: right;
-    color: #000;
+nav {
+    width: 99vw;
 }
 
-.menu ul {
-    margin: 0;
-    padding: 0;
-}
+
 
 .menu li {
     display: inline-block;
-    
+    padding: 0 20px;
 }
 
 .cabecalho a {
     text-decoration: none;
-    color: #eee;
     font-size: 1.3em;
 }
 
-.menu a {
-    padding: 15px;
-}
 
-.menu a:hover,
-.menu a::selection {
-    background-color: #eee;
-    color: #000;
-}
 
 .efeito1 {
     position: absolute;
     background-color: rgb(240, 196, 64);
     height: 900px;
     width: 800px;
-    transform: rotate(20deg);  
-    top: -150px;  
+    transform: rotate(20deg);
+    top: -150px;
     left: -100px;
     border-radius: 0px 120px 120px 0px;
     z-index: 2;
@@ -70,7 +65,7 @@
     left: 500px;
     border-radius: 0px 90px 180px 0px;
     z-index: 1;
-    
+
 }
 
 
@@ -79,39 +74,40 @@
 
 .sobre {
     position: absolute;
-    margin-top: 59vh;
-    
     background-color: rgba(243, 243, 243, 0.322);
     width: 100%;
-    height: 99vh;
+    height: 100vh;
     padding-top: 8rem;
 }
 
- .bloco-sobre {
+.bloco-sobre {
     background-color: #242424;
-    width: 450px;
+    width: 480px;
     height: 500px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-right: 150px;
-} 
+}
+
 #texto-sobre {
     width: 40vw;
     padding-top: 3em;
 }
- #formato-espacado {
+
+#formato-espacado {
     background-color: rgb(240, 196, 64);
-    width: 15px;
+    width: 10px;
     height: 20rem;
     border-radius: 8px;
     margin-top: 5%;
-    
-    
-} 
+
+
+}
+
 #page2-image {
     left: 200px;
     top: 40px;
     width: 530px;
-    
+
     position: relative;
     rotate: 1deg
 }
@@ -119,7 +115,7 @@
 
 
 
-.nossos-ServiçoTaxi{
+.nossos-ServiçoTaxi {
     width: 100%;
     height: 200px;
     background-color: #000;
