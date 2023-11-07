@@ -116,28 +116,29 @@ body {
 }
 
 
-.blocoform {
+  .blocoform {
    background-color: #d8d8d8;
-   padding: 50px 120px 50px;
-   width: 150px;
+   padding: 50px 90px 0px;
    border-radius: 10px;
    flex-direction: column;
-   z-index: 5;
-}
+   width: 400px;
+   height: 400px;
+ 
+}  
 
 .blocoform{
     
     position: relative;
-    left: 40px;
+    left: 570px;
     top: -20px;
-    width: 200px;
+    
     background-color: rgb(221, 221, 221);
-    height: 300px;
-    border-radius: 10px;
-    z-index: 5;
+   
+   
 }
 
 .blocoform input {
+    
    justify-content: center;
     height: 40px;
     width: 380px;
@@ -166,13 +167,16 @@ body {
 }
 
 .page-1 {
-    border: 2px rgb(66, 243, 66) solid;
+   
     height: calc(100vh - 80px);
 }
+/* PAGE 2 -- SOBRE */
 .page-2 {
-    height: 100vh;
+    position: absolute;
+    background-color: rgba(243, 243, 243, 0.322);
     width: 100%;
-    border: solid red 1px;
+    height: 100vh;
+    padding-top: 8rem;
 }
 
 .bloco-img {
