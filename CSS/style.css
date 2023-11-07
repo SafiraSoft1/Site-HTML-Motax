@@ -1,6 +1,7 @@
 * {
     font-family: ubuntu;
     
+    
 }
 
 body {
@@ -88,6 +89,7 @@ body {
     display: flex;
     align-items:  center;
     background-color: #ffffff;
+    
 }
 
 .blocovindos {
@@ -162,3 +164,14 @@ body {
     font-size: 18px;
     margin: 0px 0px 0px 30px;
 }
+
+.page-1 {
+    border: 2px rgb(66, 243, 66) solid;
+    height: calc(100vh - 80px);
+}
+.page-2 {
+    height: 100vh;
+    width: 100%;
+    border: solid red 1px;
+}
+
