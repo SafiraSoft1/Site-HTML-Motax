@@ -175,3 +175,25 @@ body {
     border: solid red 1px;
 }
 
+.bloco-img {
+    background-color: #242424;
+    width: 480px;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 150px;
+}
+
+#texto-sobre {
+    width: 40vw;
+    padding-top: 3em;
+}
+
+#formato-espacado {
+    background-color: rgb(240, 196, 64);
+    width: 10px;
+    height: 20rem;
+    border-radius: 8px;
+    margin-top: 5%;
+
+
+}
