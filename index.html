@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt - BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motax</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
-   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- FONTE -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />">
+
+    <!-- Script para Integração de animações do Bootstrap  -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="logo">
@@ -28,7 +35,7 @@
                     <a href="#contato">Contato</a>
                 </li>
                 <li>
-                     <a href="#cadastro" class="botao destaque">Cadastre-se</a>
+                    <a href="#cadastro" class="botao destaque">Cadastre-se</a>
                 </li>
             </ul>
         </nav>
@@ -38,46 +45,46 @@
 
     <section class="page-1">
         <div class="container1">
-                <div class="blocovindos">
+            <div class="blocovindos">
                 <div class="intro">BEM-VINDOS AO <br><B class="tamanho">MOTAX</B><br></div>
                 <img class="moto" src="honda_300_2013-removebg-preview.png" alt="">
-                </div>
-        
-                <div class="blocoform">
+            </div>
+
+            <div class="blocoform">
                 <div class="cadastre-se"><b>Cadastre-se Aqui</b></div>
                 <form class="fomulario" action="" method="post">
                     <input type="text" name="nome" placeholder="Nome Completo">
                     <input type="number" name="numero" placeholder="Número de Contato">
                     <input type="email" name="email" placeholder="E-mail">
-                    <button class="cadastrar"><b>Cadastrar</b></button>
+                    <button class="cadastrar" id="btn-cadastro"><b>Cadastrar</b></button>
                 </form>
-                </div>
             </div>
-     </section>
-     <section class="page-2" id="sobre">
+        </div>
+    </section>
+    <section class="page-2" id="sobre">
         <div class="container mx-auto d-flex flex-row">
             <div class="coltexto" id="texto-sobre">
-                <h2 class="text-dark">Trabalhamos para melhorar a<br> 
-                                      mobilidade  das pessoas da sua cidade</h2>
-                    <p>Isso nos leva a reimaginar constantemente como podemos 
-                       nos mover melhor. Para você. Por todos os destinos que te esperam.
-                       Somos uma empresa de tecnologia que faz a ponte entre o mundo físico 
-                       e o digital, para que o movimento aconteça com o simples toque de um botão.
-                       Porque acreditamos em um mundo onde a mobilidade deve ser acessível.
-                       Para você poder se mover e ganhar dinheiro com segurança.
-                    </p>
+                <h2 class="text-dark">Trabalhamos para melhorar a<br>
+                    mobilidade das pessoas da sua cidade</h2>
+                <p>Isso nos leva a reimaginar constantemente como podemos
+                    nos mover melhor. Para você. Por todos os destinos que te esperam.
+                    Somos uma empresa de tecnologia que faz a ponte entre o mundo físico
+                    e o digital, para que o movimento aconteça com o simples toque de um botão.
+                    Porque acreditamos em um mundo onde a mobilidade deve ser acessível.
+                    Para você poder se mover e ganhar dinheiro com segurança.
+                </p>
             </div>
-                
-                <div class="mx-5" id="formato-espacado"></div>
-                    <div class="bloco-img1"></div>
-                    <div class="bloco-img2"></div>
-                    <img class="imgmoto" src="CB300R Amarela 3-4 Frente  copy_thumb[1].png" alt="">
-                    
-                </div>
+
+            <div class="mx-5" id="formato-espacado"></div>
+            <div class="bloco-img1"></div>
+            <div class="bloco-img2"></div>
+            <img class="imgmoto" src="CB300R Amarela 3-4 Frente  copy_thumb[1].png" alt="">
+
+        </div>
     </section>
 
     <footer>
-        
+
         <div class="boxs">
             <h2>Empresa</h2>
             <ul>
@@ -102,7 +109,7 @@
                 <li><a href="#">E-mail</a></li>
             </ul>
         </div>
-        
+
         <header>
             <h1 class="mo"><B>MOTAX</B></h1>
             <div class="deres">
@@ -118,5 +125,7 @@
             </div>
         </header>
     </footer>
+
 </body>
+
 </html>
