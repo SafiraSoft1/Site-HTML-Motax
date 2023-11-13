@@ -257,10 +257,11 @@ footer .boxs {
 }
 
 .footer-link {
-    padding: 0px 20px 0px 0px;
+    padding: 0px 16.5px;
     font-size: 25px;
-    margin-left: 42px;
+    margin-left: 30px;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 .mo,
