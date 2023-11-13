@@ -88,6 +88,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #ffffff;
+    justify-content: center;
 }
 
 .blocovindos {
@@ -214,6 +215,8 @@ footer {
     min-height: 400px;
     background-color: rgb(36, 36, 36);
     display: flex;
+    justify-content: center;
+
 }
 
 footer .boxs {
