@@ -81,7 +81,7 @@ body {
     border-radius: 0px 90px 70px 0px;
 }
 
-/* Formulário*/
+/* ============================== Formulário ============================ */
 
 .container1 {
     padding: 50px 0px 0px 0px;
@@ -89,6 +89,7 @@ body {
     align-items: center;
     background-color: #ffffff;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .blocovindos {
@@ -103,8 +104,8 @@ body {
 
 .intro {
     font-size: 30px;
-    margin-left: -25px;
-    z-index: 7;
+    left: 150px;
+    position: absolute;
 }
 
 .tamanho {
@@ -164,7 +165,7 @@ body {
   
 }
 
-/* PAGE 2 -- SOBRE */
+/* ================ PAGE 2 -- SOBRE ===================== */
 .page-2 {
     background-color: rgba(243, 243, 243, 0.322);
     width: 100%;
@@ -211,7 +212,7 @@ body {
     margin-top: 5%;
 }
 
-/* Footer */
+/* ===================== Footer ======================  */
 footer {
     width: 100%;
     min-height: 400px;
