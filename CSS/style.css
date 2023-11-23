@@ -12,7 +12,7 @@ body {
     border-bottom: solid 5px #fff;
     height: 80px;
     box-sizing: content-box;
-    margin-top: -24px;
+  
 }
 
 .logo {
@@ -81,7 +81,7 @@ body {
     border-radius: 0px 90px 70px 0px;
 }
 
-/* Formulário*/
+/* ============================== Formulário ============================ */
 
 .container1 {
     padding: 50px 0px 0px 0px;
@@ -89,6 +89,7 @@ body {
     align-items: center;
     background-color: #ffffff;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .blocovindos {
@@ -103,8 +104,8 @@ body {
 
 .intro {
     font-size: 30px;
-    margin-left: -25px;
-    z-index: 7;
+    left: 150px;
+    position: absolute;
 }
 
 .tamanho {
@@ -136,6 +137,7 @@ body {
     margin-right: 15px;
     border: #eee;
     border-radius: 5px;
+    
 }
 
 .cadastre-se {
@@ -159,16 +161,17 @@ body {
 }
 
 .page-1 {
-    height: calc(100vh - 80px);
+    height: calc(90vh - 80px);
+  
 }
 
-/* PAGE 2 -- SOBRE */
+/* ================ PAGE 2 -- SOBRE ===================== */
 .page-2 {
     background-color: rgba(243, 243, 243, 0.322);
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     padding-top: 8rem;
-    margin-top: -150px;
+   
 }
 
 .bloco-img1 {
@@ -209,7 +212,7 @@ body {
     margin-top: 5%;
 }
 
-/* Footer */
+/* ===================== Footer ======================  */
 footer {
     width: 100%;
     min-height: 400px;
@@ -236,8 +239,7 @@ footer .boxs {
 .boxs ul li {
     margin: 25px 0px;
     list-style: none;
-    margin-left: -27px;
-
+    margin-left: -33px;
 }
 
 .boxs ul li a {
@@ -258,10 +260,11 @@ footer .boxs {
 }
 
 .footer-link {
-    padding: 0px 18px 0px 0px;
+    padding: 0px 16.5px;
     font-size: 25px;
-    margin-left: 44px;
+    margin-left: 30px;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 .mo,
