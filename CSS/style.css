@@ -84,7 +84,7 @@ body {
 /* ============================== Formulário ============================ */
 
 .container1 {
-    padding: 50px 0px 0px 0px;
+    padding: 50px 100px 0px 0px;
     display: flex;
     align-items: center;
     background-color: #ffffff;
@@ -93,7 +93,7 @@ body {
 }
 
 .blocovindos {
-    padding: 0px 150px 0px 200px;
+    padding: 0px 170px 0px 200px;
     z-index: 4;
     justify-content: space-between;
     margin-left: -50px;
@@ -115,11 +115,12 @@ body {
 
 .blocoform {
     background-color: #d8d8d8;
-    padding: 50px 90px 0px;
+    padding: 40px 90px 0px;
     border-radius: 10px;
     flex-direction: column;
     width: 415px;
     height: 400px;
+    
 }
 
 .blocoform {
