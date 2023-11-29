@@ -95,6 +95,8 @@ body {
 .blocovindos {
     padding: 0px 150px 0px 200px;
     z-index: 4;
+    justify-content: space-between;
+    margin-left: -50px;
 }
 
 .moto {
@@ -125,6 +127,7 @@ body {
     left: 20px;
     top: -20px;
     background-color: rgb(225, 225, 225);
+    z-index: 5;
 }
 
 .blocoform input {
